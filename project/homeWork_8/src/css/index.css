@@ -1,0 +1,17 @@
+body{
+    background: #fdfddf;
+    font-family: 'times new roman', palatino linotype, athena, tahoma;
+    font-size: 10pt;
+    color: rgb(0,0,0);
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1, h3{
+    font-size: 12pt;
+    color: rgb(204,0,0);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
