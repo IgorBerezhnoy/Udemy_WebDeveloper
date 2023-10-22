@@ -42,7 +42,7 @@ h2 {
     padding: 20px;
     margin: 10px;
     border: solid 3px black;
-    z-index: 5;
+    vertical-align: middle;
 }
 
 nav {
@@ -57,12 +57,17 @@ nav {
 
 }
 .red{
-    position: absolute;
     background-color: red;
-    left: 80px;
-    z-index: -4;
-}
 
+    width: 50vw;
+    height: 10vw;
+    /*width: 50rem;*/
+    /*height: 50%;*/
+    /*height: 100px;*/
+}
+img{
+    /*float: right;*/
+}
 /*Блочные*/
 /*Строчные*/
 /*Строчные_Блочные*/
