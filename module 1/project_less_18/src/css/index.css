@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.promo {
+    height: 800px;
+    background: url("../img/bg/main_bg.png") center center/cover no-repeat;
+}
+
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text {
+    margin-top: 14px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: "Roboto Light";
+}
