@@ -1,0 +1,44 @@
+/* line 13, D:/programing_2.0/udemy/html+css/module_2/less_28/src/sass/style.sass */
+h1 {
+  color: red;
+  font-size: 50px;
+}
+
+/* line 17, D:/programing_2.0/udemy/html+css/module_2/less_28/src/sass/style.sass */
+h2 {
+  color: red;
+  font-size: 40px;
+}
+
+/* line 21, D:/programing_2.0/udemy/html+css/module_2/less_28/src/sass/style.sass */
+.block {
+  background-color: #000000;
+}
+
+/* line 24, D:/programing_2.0/udemy/html+css/module_2/less_28/src/sass/style.sass */
+.block h3 {
+  display: block;
+  width: 250px;
+  height: 200px;
+  background: red;
+}
+
+/* line 27, D:/programing_2.0/udemy/html+css/module_2/less_28/src/sass/style.sass */
+.block_color {
+  background: aqua;
+}
+
+/* line 30, D:/programing_2.0/udemy/html+css/module_2/less_28/src/sass/style.sass */
+.block_color button {
+  display: block;
+  width: 250px;
+  height: 200px;
+  background: red;
+}
+
+/* line 33, D:/programing_2.0/udemy/html+css/module_2/less_28/src/sass/style.sass */
+.block .block_color {
+  background-color: deeppink;
+}
+
+  /*# sourceMappingURL=style.css.map */
