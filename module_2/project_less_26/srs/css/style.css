@@ -1,191 +1,311 @@
+/* line 1, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 * {
-    font-family: "Roboto", sans-serif
+  font-family: "Roboto", sans-serif;
 }
 
+/* line 4, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 header {
-    position: relative;
+  position: relative;
 }
 
+/* line 7, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 nav {
-    height: 50px;
-    background: #212121;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
+  height: 50px;
+  background: #212121;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 
+/* line 14, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 .menu {
-    display: flex;
-    justify-content: space-between;
-    padding: 13px 70px;
-    margin: 0;
-    list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style: none;
 }
 
+/* line 21, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 .menu .menu_link {
-    font-weight: 300;
-    font-size: 15px;
-    color: #FFFFFF;
+  font-weight: 300;
+  font-size: 15px;
+  color: #FFFFFF;
 }
 
+/* line 26, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 .menu .menu_item {
-    border-right: 2px dotted black;
-    padding-right: 28px;
+  border-right: 2px dotted black;
+  padding-right: 28px;
 }
 
+/* line 30, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 .subheader {
-    margin-top: 50px;
-    height: 84px;
-    background: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    position: absolute;
+  margin-top: 50px;
+  height: 84px;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  position: absolute;
 }
 
+/* line 37, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 .subheader .subheader_logo {
-    display: block;
-    margin-top: 16px;
-    max-width: 100%;
+  display: block;
+  margin-top: 16px;
+  max-width: 100%;
 }
 
+/* line 42, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 .subheader .subheader_official {
-    margin-top: 6px;
-    opacity: 0.5;
-    font-weight: 400;
-    font-size: 13px;
-    color: #FFFFFF;
+  margin-top: 6px;
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 13px;
+  color: #FFFFFF;
 }
 
+/* line 49, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 .subheader .subheader_call {
-    text-align: right;
-    margin-top: 19px;
-    font-weight: 300;
-    font-size: 12px;
-    color: #FFFFFF;
+  text-align: right;
+  margin-top: 19px;
+  font-weight: 300;
+  font-size: 12px;
+  color: #FFFFFF;
 }
 
+/* line 56, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 .subheader .subheader_phone {
-    margin-top: 8px;
-    text-align: right;
-    display: block;
-    font-weight: 400;
-    font-size: 22px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    line-height: 12px;
+  margin-top: 8px;
+  text-align: right;
+  display: block;
+  font-weight: 400;
+  font-size: 22px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  line-height: 12px;
 }
 
+/* line 66, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 .subheader .subheader_btn, .promo .promo_btn {
-    margin-top: 19px;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 14px;
-    color: #FFFFFF;
-    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
-    border-radius: 4px;
-    width: 172px;
-    height: 46px;
-    border: none;
-    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+  margin-top: 19px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  border-radius: 4px;
+  width: 172px;
+  height: 46px;
+  border: none;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
 }
 
+/* line 79, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 .promo {
-    min-height: 800px;
-    background: url("../img/bacground/main_bg.png") center center/cover no-repeat;
-    padding: 150px 0 135px 0;
+  min-height: 800px;
+  background: url("../img/bacground/main_bg.png") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
 }
 
+/* line 84, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 .promo .promo_header {
-    font-weight: 900;
-    font-size: 60px;
-    line-height: 60px;
-    color: #FFFFFF;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  color: #FFFFFF;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
 }
 
+/* line 94, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 .promo .promo_subheader {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 48px;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin: 22px 0 0 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 22px 0 0 0;
 }
 
+/* line 104, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 .promo .promo_descr {
-    margin-top: 16px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
 }
 
+/* line 113, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
 .promo .promo_btn {
-    width: 259px;
-    height: 63px;
-    font-size: 18px;
-    display: block;
-    margin: 116px auto 0;
+  width: 259px;
+  height: 63px;
+  font-size: 18px;
+  display: block;
+  margin: 116px auto 0;
 }
 
-.startWork {
-    min-height: 850px;
-    padding: 18px 0 64px 0;
+/* line 120, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.reasons {
+  padding: 71px 0 65px 0;
 }
 
-.startWork .startWork_advantages {
-    background: #000000;
-    display: block;
-    font-weight: 400;
-    font-size: 11px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin: 0 auto;
-
+/* line 123, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.reasons .reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
 }
 
-.startWork .startWork_header {
-    margin-top: 33px;
-    font-weight: 700;
-    font-size: 38px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #222222;
+/* line 129, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.reasons .reasons_block .reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
 }
 
-.startWork .startWork_wrapper_img {
-    background-color: #1eabc6;
-    width: 116px;
-    height: 116px;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* line 139, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.reasons .reasons_block .reasons_descr {
+  width: 343px;
 }
 
-.startWork .startWork_wrapper_img {
-
+/* line 142, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.reasons .reasons_block .reasons_descr .reasons_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
 }
 
-.startWork .startWork_block_header {
-    margin-top: 18px;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 21px;
-    color: #1EACC7;
-}.startWork .startWork_text {
-     white-space: normal;
-     font-weight: 300;
-     font-size: 15px;
-     line-height: 21px;
-     color: #202020;
+/* line 148, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.reasons .reasons_block .reasons_descr .reasons_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
 
+/* line 154, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.label {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
 
- }
+/* line 166, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.title {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 175, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.subtitle {
+  margin-top: 19px;
+  font-weight: 400;
+  font-size: 17px;
+  color: #222222;
+  text-align: center;
+}
+
+/* line 181, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 80px 0;
+  background: url("../img/bacground/mobile_bg.png") center center/cover no-repeat;
+}
+
+/* line 185, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 187, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto 19px;
+  padding: 92px 0 34px;
+}
+
+/* line 193, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.mobile_item_1 {
+  background: url("../img/cards/1.png") center center/cover no-repeat;
+}
+
+/* line 195, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.mobile_item_2 {
+  background: url("../img/cards/2.png") center center/cover no-repeat;
+}
+
+/* line 197, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.mobile_item_3 {
+  background: url("../img/cards/3.png") center center/cover no-repeat;
+}
+
+/* line 199, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.mobile_item_4 {
+  background: url("../img/cards/4.png") center center/cover no-repeat;
+}
+
+/* line 201, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.mobile_item_5 {
+  background: url("../img/cards/5.png") center center/cover no-repeat;
+}
+
+/* line 203, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.mobile_item_6 {
+  background: url("../img/cards/6.png") center center/cover no-repeat;
+}
+
+/* line 205, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.mobile_item_subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* line 212, D:/programing_2.0/udemy/html+css/module_2/project_less_26/srs/sass/style.sass */
+.mobile_item_plus {
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  width: 26px;
+  height: 26px;
+  background: #000;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
