@@ -399,3 +399,87 @@ nav {
 .required .warning .required_list li:before {
   background: url("../icons/little_icn/red.png") center center/cover no-repeat;
 }
+
+.world {
+  min-height: 716px;
+  padding: 48px 22px;
+  background: url("../img/bacground/world_bg.png") center center/cover no-repeat;
+}
+
+.world_label {
+  background-color: white;
+  color: black;
+}
+
+.world_title {
+  color: white;
+  margin-top: 26px;
+}
+
+.world_subtitle {
+  color: white;
+  margin-top: 2px;
+}
+
+.world_All_city {
+  text-align: center;
+  display: block;
+  margin: 456px auto 0;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.footer {
+  min-height: 157px;
+  padding: 12px 0 29px 0;
+}
+
+.footer .separator {
+  background-color: #1eacc7;
+  width: 301px;
+  height: 4px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.footer_first_footer {
+  margin: 27px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footer_first_footer li {
+  margin-right: 30px;
+  color: #070716;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.footer_second_footer {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footer_second_footer li {
+  margin-right: 15px;
+  color: #999;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 68px;
+  text-transform: uppercase;
+}
+
+.footer_language {
+  color: #1eacc7;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
