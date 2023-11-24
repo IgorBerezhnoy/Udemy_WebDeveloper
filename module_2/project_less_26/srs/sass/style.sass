@@ -1,4 +1,11 @@
-$text_main_color: #1eacc7
+$main_color: #1eacc7
+$second_color: #ff5656
+
+=btn_hover
+	&:hover
+		background-image: none
+		background-color: $main_color
+
 
 *
 	font-family: "Roboto", sans-serif
@@ -20,12 +27,12 @@ nav
 	margin: 0
 	list-style: none
 	
-	.menu_link
+	&_link
 		font-weight: 300
 		font-size: 15px
 		color: #FFFFFF
 	
-	.menu_item
+	&_item
 		border-right: 2px dotted black
 		padding-right: 28px
 
@@ -36,26 +43,26 @@ nav
 	width: 100%
 	position: absolute
 	
-	.subheader_logo
+	&_logo
 		display: block
 		margin-top: 16px
 		max-width: 100%
 	
-	.subheader_official
+	&_official
 		margin-top: 6px
 		opacity: 0.5
 		font-weight: 400
 		font-size: 13px
 		color: #FFFFFF
 	
-	.subheader_call
+	&_call
 		text-align: right
 		margin-top: 19px
 		font-weight: 300
 		font-size: 12px
 		color: #FFFFFF
 	
-	.subheader_phone
+	&_phone
 		margin-top: 8px
 		text-align: right
 		display: block
@@ -71,19 +78,20 @@ nav
 	font-weight: 400
 	font-size: 14px
 	color: #FFFFFF
-	background: linear-gradient(0deg, $text_main_color 0%, #4CE2FF 100%)
+	background: linear-gradient(0deg, $main_color 0%, #4CE2FF 100%)
 	border-radius: 4px
 	width: 172px
 	height: 46px
 	border: none
 	box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12)
+	+btn_hover
 
 .promo
 	min-height: 800px
 	background: url("../img/bacground/main_bg.png") center center/cover no-repeat
 	padding: 150px 0 135px 0
 	
-	.promo_header
+	&_header
 		font-weight: 900
 		font-size: 60px
 		line-height: 60px
@@ -93,7 +101,7 @@ nav
 		text-transform: uppercase
 		margin: 0
 	
-	.promo_subheader
+	&_subheader
 		font-weight: 700
 		font-size: 36px
 		line-height: 48px
@@ -103,7 +111,7 @@ nav
 		color: #FFFFFF
 		margin: 22px 0 0 0
 	
-	.promo_descr
+	&_descr
 		margin-top: 16px
 		font-weight: 400
 		font-size: 18px
@@ -112,46 +120,47 @@ nav
 		text-align: center
 		color: #FFFFFF
 	
-	.promo_btn
+	&_btn
 		width: 259px
 		height: 63px
 		font-size: 18px
 		display: block
 		margin: 116px auto 0
+		+btn_hover
 
 .reasons
 	padding: 71px 0 65px 0
 	
-	.reasons_block
+	&_block
 		display: flex
 		justify-content: center
 		align-items: center
 		margin-top: 35px
-		
-		.reasons_round
-			display: flex
-			justify-content: center
-			align-items: center
-			margin-right: 26px
-			width: 113px
-			height: 113px
-			background-color: $text_main_color
-			border-radius: 100%
-		
-		.reasons_descr
-			width: 343px
-			
-			.reasons_subtitle
-				line-height: 21px
-				color: $text_main_color
-				font-size: 17px
-				font-weight: 400
-			
-			.reasons_text
-				color: #202020
-				font-size: 15px
-				font-weight: 300
-				line-height: 21px
+	
+	&_round
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-right: 26px
+		width: 113px
+		height: 113px
+		background-color: $main_color
+		border-radius: 100%
+	
+	&_descr
+		width: 343px
+	
+	&_subtitle
+		line-height: 21px
+		color: $main_color
+		font-size: 17px
+		font-weight: 400
+	
+	&_text
+		color: #202020
+		font-size: 15px
+		font-weight: 300
+		line-height: 21px
 
 .label
 	margin: 0 auto
@@ -235,23 +244,51 @@ nav
 			display: flex
 			justify-content: center
 			align-items: center
+			
+			&:before
+				content: ""
+				display: block
+				width: 14px
+				height: 2px
+				background-color: $main_color
+				transition: 0.3s all
+			
+			&:after
+				content: ""
+				position: absolute
+				left: 50%
+				transform: translateX(-50%)
+				display: block
+				height: 14px
+				width: 2px
+				background-color: $main_color
+				transition: 0.3s all
+			
+			&:hover
+				&:before, &:after
+					background-color: $second_color
 
 .car
 	min-height: 900px
 	background: url("../img/bacground/car_bg.png") center center/cover no-repeat
 	padding: 57px 0 137px
+	
 	&_label
 		background: #fff
 		color: #070716
+	
 	&_title
 		color: #fff
 		margin-top: 27px
+	
 	&_subtitle
 		color: #fff
 		margin-top: 1px
+	
 	&_img
 		display: block
 		margin: 54px auto 0
+	
 	&_text
 		font-weight: 300
 		font-size: 17px
@@ -259,3 +296,59 @@ nav
 		color: #222222
 		text-align: center
 
+.required
+	padding: 68px 0 84px 0
+	min-height: 930px
+	
+	&_block
+		margin: 33px 0
+		
+		&_nmd
+			margin-bottom: 0
+	
+	
+	
+	
+	&_title
+		color: $main_color
+		font-size: 22px
+		font-weight: 400
+		line-height: 24px
+	
+	&_list
+		list-style-type: none
+		padding-left: 50px
+		margin-top: 22px
+		
+		li
+			position: relative
+			font-size: 17px
+			font-weight: 300
+			line-height: 24px
+			margin-top: 10px
+			
+			&:before
+				content: ""
+				display: block
+				position: absolute
+				left: -31px
+				top: 3px
+				width: 21px
+				height: 20px
+				background: url("../icons/little_icn/blue.png") center center/cover no-repeat
+	
+	&_descr
+		color: $main_color
+		font-size: 17px
+		font-weight: 300
+		line-height: 24px
+	
+	.warning
+		.required_title
+			color: $second_color
+		
+		.required_list
+			li
+				&:before
+					background: url("../icons/little_icn/red.png") center center/cover no-repeat
+				
