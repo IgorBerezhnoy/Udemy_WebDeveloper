@@ -51,6 +51,9 @@
 			flex-direction: column
 			align-items: center
 		
+		&_round
+			margin-right: 0
+		
 		&_descr
 			width: 300px
 			margin-top: 20px
@@ -68,6 +71,7 @@
 		padding: 20px 15px
 		background-color: rgba(0, 0, 0, 0.8)
 		transition: 0.8s all
+		
 		&_active
 			left: 0
 		
@@ -78,4 +82,122 @@
 		
 		&_link
 			font-size: 20px
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: rotateY(-50%)
+		width: 26px
+		height: 12px
+		
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background-color: white
+			margin-bottom: 2px
+			transition: 0.5s all
+		
+		&_active
+			span
+				margin-bottom: -2px
+				
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)
+				
+				&:nth-child(2)
+					display: none
+				
+				&:nth-child(3)
+					transform: translateY(3px) rotate(45deg)
+	.xs-hidden
+		display: none
+	.xs-visible
+		display: block
+	.subheader
+		&_phone
+			display: block
+			margin-top: 10px
+			font-weight: 400
+			font-size: 16px
+			text-transform: uppercase
+			color: #FFFFFF
+			text-align: center
+		
+		&_btn
+			width: 200px
+			height: 40px
+			font-size: 16px
+			display: block
+			margin: 10px auto 0
+	
+	.promo
+		&_header
+			line-height: 45px
 
+@media (max-width: 575px)
+	.subheader
+		height: 60px
+		
+		&_official
+			display: none
+		
+		&_logo
+			margin-top: 18px
+		
+		&_phone
+			margin-top: 10px
+			font-weight: 400
+			font-size: 12px
+			text-transform: uppercase
+		
+		&_btn
+			width: 120px
+			height: 21px
+			font-size: 10px
+			margin: 6px
+	.promo
+		min-height: 400px
+		padding: 101px 0 35px 0
+		
+		&_descr
+			display: none
+		
+		&_header
+			font-size: 30px
+			padding: 0 24px
+			line-height: 35px
+		
+		&_subheader
+			font-size: 20px
+			margin-top: 33px
+			padding: 0 10px
+			line-height: 30px
+		
+		&_btn
+			width: 210px
+			height: 50px
+			margin-top: 72px
+	.menu
+		width: 85%
+	.reasons
+		padding: 20px 0 38px 0
+		
+		&_block
+			margin-top: 26px
+		
+		&_round
+			width: 100px
+			height: 100px
+		
+		&_descr
+			width: 100%
+			margin-top: 27px
+		&_subtitle
+			font-size: 16px
+	.title
+		font-size: 15px
+		margin-top: 15px
+		line-height: 16px
+		
