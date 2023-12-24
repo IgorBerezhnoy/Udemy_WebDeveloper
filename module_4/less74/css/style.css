@@ -6,10 +6,11 @@
 
 .grid-container {
     display: grid;
-    width: 600px;
-    height: 600px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns:repeat(3, minmax(150px, 300px));
+    grid-template-rows: repeat(3, minmax(100px, auto));
+    grid-auto-rows: 100px;
+    gap: 10px;
+    grid-auto-flow: column;
 }
 
 .grid-elem {
