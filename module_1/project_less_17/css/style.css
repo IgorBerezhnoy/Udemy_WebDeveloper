@@ -8,13 +8,13 @@ color: blue;
 .big{
     color: black;
 }
-#second{
+#blog{
     color: orange;
 }
 
 .wrapper .element{
     color: yellowgreen;
 }
-#second.element{
+#blog.element{
     color: white;
 }
