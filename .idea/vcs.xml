@@ -4,5 +4,6 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/module_3/runSmart" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/module_3/runSmart/dist" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module_4/Portfolio_starter" vcs="Git" />
   </component>
 </project>
